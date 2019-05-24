@@ -1,0 +1,95 @@
+body{
+    font: 16px/ 1.5 monospace;
+    padding:0; 
+    margin:0; 
+    background-color: lightgray;     
+}
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+ul{
+    margin: 0;
+    padding:0;
+}
+.button_1{
+    height:38px;
+    background: orange;
+    border: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
+}
+/*Header*/
+header{
+    background: saddlebrown; 
+    padding-top:30px;
+    min-height:70px;
+    border-bottom:#845 3px solid;
+}
+header a{
+    color: white;
+    text-transform: uppercase;
+    font-size:16px;
+    text-decoration: none;
+}
+header li{
+    display:inline;
+    padding: 0 20px 0 20px; 
+}
+
+header #branding{
+    float: left;
+
+}
+header h1{
+    margin: 0;
+
+}
+header nav{
+    float: right;
+    margin-top: 30px;
+    font-weight: bold;
+}
+header .highlight, header .current a{
+    color: whitesmoke; 
+    font-weight: bold;
+
+}
+header a:hover{
+    color:gray;
+    font-weight: bold;
+
+}
+/* Boxes*/
+
+#boxes{
+    margin-top: 20px;
+
+}
+
+#boxes .box{
+    float: left; 
+    text-align: center, justify;
+    width: 40%;
+    padding: 10px;
+
+}
+#boxes .box img{
+    width: 350px;
+    height: auto;
+}
+#boxes .box h3{
+    background: cadetblue;
+    text-align: center,
+    
+}
+footer{
+    padding: 20px;
+    margin-top: 20px;
+    color: white;
+    background-color:saddlebrown;
+    text-align: center; 
+}
+
