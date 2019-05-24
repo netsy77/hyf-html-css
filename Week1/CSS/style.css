@@ -1,0 +1,57 @@
+
+body {
+    background: #efefef;
+    font-family: monospace;  
+}
+h1 {font-size: 40px;
+
+}
+    .thin-blue-border {
+        border-color: blue;
+        border-width: 5px;
+        border-style: solid;
+        width: 100px;
+
+    }
+   .box{
+    border-style: solid;
+    border-color: black;
+    border-width: auto;
+    text-align: center;
+    margin: -15px;
+    padding: 10px;
+   }
+    .silver-background {
+    background-color: silver;
+} 
+   
+  h2 { 
+    font-size: 30px;
+    text-align: center;
+}
+h3 {
+    font-size: 15px;
+    color: green;
+        
+}
+
+p {
+    font-size: 15px;
+    color: green;
+    font-family: Helvetica;
+
+}
+@media (min-width: 600px){
+    p {
+        font-size: 1.20rem;
+    }
+    p1 {
+        font-size: 1.0rem;
+        line-height: 1.5; 
+    }
+    li {
+        font-size: 1.0rem;
+        line-height: 1.5;
+    }
+
+}
